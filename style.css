@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto 300px;
+    grid-template-rows: auto auto auto;
+    background-color: white;
+    color: black;
+    gap: 10px;
+    text-align: center;
+    height: 755px;
+    border: 10px solid white;
+}
+
+#item1{
+    background-color: aquamarine;
+    grid-column: 1/6;
+    padding-top: 50px;
+}
+
+#item2{
+    background-color: cornflowerblue;
+    grid-row: 2/4;
+}
+
+img{
+    padding-top: 50px;
+    height: 450px;
+}
+
+#item3{
+    background-color: darkcyan;
+    grid-column: 2/5;
+    color: white;
+    font-size: 25px;
+    padding: 80px 25px 0px 25px;
+    height: auto;
+}
+
+#item4{
+    background-color: darkslategray;
+    text-align: left;
+    padding: 30px 10px 0px 0px;
+    height: auto;
+    color: white;
+    font-size: 15px;
+}
+
+#item5{
+    background-color: blanchedalmond;
+    grid-column: 2/6;
+}
